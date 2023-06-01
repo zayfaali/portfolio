@@ -1,35 +1,19 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+import persona from "../assets/projects/personaDetect.png";
+import robo from "../assets/projects/robofriends.png";
 
-export const data=[
-    {
-        id:1,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:2,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-    {
-        id:3,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:4,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-
-
-]
+export const data = [
+  {
+    id: 1,
+    name: "Persona Detect - FaceDetection",
+    image: persona,
+    github: "https://github.com/zayfaali/robofriends",
+    live: "https://personadetect-production.up.railway.app",
+  },
+  {
+    id: 2,
+    name: "Robofriends",
+    image: robo,
+    github: "https://github.com/zayfaali/robofriends",
+    live: "https://zayfaali.github.io/robofriends/",
+  },
+];
